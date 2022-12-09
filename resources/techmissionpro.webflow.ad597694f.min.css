@@ -12768,6 +12768,13 @@ p {
     display: inline-block;
 }
 
+.calc-input{
+    text-align: center;
+    width: 100px;
+    border-radius: 15px; 
+    border: 2px solid blue;
+}
+
 @media screen and (min-width: 1280px) {
     .button2.bottom {
         margin-top: 20px;
