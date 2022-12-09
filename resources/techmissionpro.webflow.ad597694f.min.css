@@ -3184,6 +3184,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row-reverse;
     max-width: 340px;
     margin-bottom: 25px;
     padding: 25px;
@@ -3200,7 +3201,8 @@ p {
     font-family: Montserrat, sans-serif;
     color: #303030;
     font-size: 16px;
-    line-height: 28px
+    line-height: 28px;
+    margin-left: 18px;
 }
 
 .div-block-13 {
