@@ -1,4 +1,4 @@
-document.querySelector(".calk-calculate").addEventListener("click", function(){
+function calculate () {
     const num1 = +document.querySelector(".calc-input1").value;
     const num2 = +document.querySelector(".calc-input2").value;
     const op = document.querySelector(".op-select").value; 
@@ -19,4 +19,25 @@ document.querySelector(".calk-calculate").addEventListener("click", function(){
     }
 
     document.querySelector(".calc-result").value = result;
+
+}
+
+document.querySelector(".calk-calculate").addEventListener("click", function(){
+    calculate();
 });
+
+document.querySelector(".op-select").addEventListener("click", function(){
+    calculate();
+});
+
+document.querySelector(".calc-input1").addEventListener("click", function(){
+    calculate();
+});
+
+document.querySelector(".calc-input2").addEventListener("click", function(){
+    calculate();
+});
+
+
+
+    
