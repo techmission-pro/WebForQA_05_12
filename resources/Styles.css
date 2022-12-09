@@ -4,3 +4,13 @@
             .div-block-6:nth-child(2n) .text-block-5{
                 color: blue;
             }
+			.calc-input {
+			width: 100px;
+			height: 40px;
+			//padding: 5px 10px;
+			font-size: 20px;
+			border-radius: 10px;
+			color: #4e454a;
+			border-color: blue;
+			border-width: 3px;
+			}
