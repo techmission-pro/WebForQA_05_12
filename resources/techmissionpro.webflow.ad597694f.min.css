@@ -12932,6 +12932,14 @@ p {
         margin-bottom: 25px
     }
 
+    .div-block-6:nth-child(2n){
+        background-color: #888;
+    }
+
+    .div-block-6:nth-child(2n) .text-block-5{
+        color: blue;
+    }
+
     .div-block-8 {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
