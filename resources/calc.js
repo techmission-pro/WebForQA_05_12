@@ -7,5 +7,5 @@ const number2 = +document.querySelector('[name="number2"]').value;
 // + befor.  number1 and number2 converts a string to a number
 
 const sum = number1 + number2;
-document.querySelector('.calc-result').innerText=sum;
+document.querySelector('.calc-result').value=sum;
     } )
