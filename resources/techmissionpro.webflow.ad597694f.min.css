@@ -12762,6 +12762,12 @@ p {
     text-transform: uppercase
 }
 
+.emoji{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
 @media screen and (min-width: 1280px) {
     .button2.bottom {
         margin-top: 20px;
