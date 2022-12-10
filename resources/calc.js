@@ -1,6 +1,6 @@
 console.log('Calc loaded');
 
-document.querySelector('.calc-calculate').addEventListener('click',function()
+function calculate()
     { const number1 = +document.querySelector('[name="number1"]').value;
       const number2 = +document.querySelector('[name="number2"]').value;
 	  const op = document.querySelector('[name="operation"]').value;
@@ -21,4 +21,8 @@ document.querySelector('.calc-calculate').addEventListener('click',function()
 				  }
 		  
 	document.querySelector('.calc-result').value=result;
-    } )
+    } 
+
+document.querySelector('.calc-calculate').addEventListener('click', function() 	{	calculate(); } )
+
+document.querySelector('[name="operation"]').addEventListener('change',function() 	{	calculate(); } 	)
