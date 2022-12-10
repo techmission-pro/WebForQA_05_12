@@ -8,7 +8,8 @@ function calculate()
 	// + converts a string to a number
 
 	let result;
-	if (op==='plus') { result = number1 + number2; }
+	if (number1 !==0 && number2 !==0) 
+	 if (op==='plus'&& number2 !==0)   { result = number1 + number2; }
 	  else 
 		if (op==='minus') { result = number1 - number2; }
 	      else 
@@ -16,9 +17,10 @@ function calculate()
 		       else 
 				 if (op==='devide') { result = number1 / number2; }
 				  else {
-					  console.error('Wrong operation');
+					   console.error('Wrong operation');
 					  alert('Wrong operation is selected');
 				  }
+	else result ="";
 		  
 	document.querySelector('.calc-result').value=result;
     } 
