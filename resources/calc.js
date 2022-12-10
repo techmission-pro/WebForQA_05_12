@@ -2,10 +2,23 @@ console.log('Calc loaded');
 
 document.querySelector('.calc-calculate').addEventListener('click',function()
     { const number1 = +document.querySelector('[name="number1"]').value;
-const number2 = +document.querySelector('[name="number2"]').value;
+      const number2 = +document.querySelector('[name="number2"]').value;
+	  const op = document.querySelector('[name="operation"]').value;
 
-// + befor.  number1 and number2 converts a string to a number
+	// + converts a string to a number
 
-const sum = number1 + number2;
-document.querySelector('.calc-result').value=sum;
+	let result;
+	if (op==='plus') { result = number1 + number2; }
+	  else 
+		if (op==='minus') { result = number1 - number2; }
+	      else 
+			if (op==='multiply') { result = number1 * number2; }
+		       else 
+				 if (op==='devide') { result = number1 / number2; }
+				  else {
+					  console.error('Wrong operation');
+					  alert('Wrong operation is selected');
+				  }
+		  
+	document.querySelector('.calc-result').value=result;
     } )

@@ -401,9 +401,15 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
-                    <input type="text" name="number1" class="calc-input" />
-                     + 
-                    <input type="text" name="number2" class="calc-input" />
+                    <input type="number" name="number1" class="calc-input" />
+                     <!--+-->
+					 <select name="operation" class="calc-operation">
+					 <option value="plus"> + </option>
+					 <option value="minus"> - </option>
+					 <option value="multiply"> * </option>
+					 <option value="devide"> / </option>
+					 </select>
+                    <input type="number" name="number2" class="calc-input" />
                     <button type="button" class="calc-calculate">=</button>
                     <!--<span class="calc-result"></span>-->
 					<input type="text" name="calc-result" readonly class="calc-input calc-result" />
