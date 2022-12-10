@@ -20,8 +20,10 @@ function calculate()
 					   console.error('Wrong operation');
 					  alert('Wrong operation is selected');
 				  }
-	else result ="";
-		  
+	else 
+	{	result ="";
+		if(op==='devide') { console.error('Wrong operation');  alert('Division by 0 is impossible'); }
+	}
 	document.querySelector('.calc-result').value=result;
     } 
 
