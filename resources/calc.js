@@ -26,3 +26,7 @@ function calculate()
 document.querySelector('.calc-calculate').addEventListener('click', function() 	{	calculate(); } )
 
 document.querySelector('[name="operation"]').addEventListener('change',function() 	{	calculate(); } 	)
+
+document.querySelector('[name="number1"]').addEventListener('input',function() 	{	calculate(); } 	)
+
+document.querySelector('[name="number2"]').addEventListener('input',function() 	{	calculate(); } 	)
