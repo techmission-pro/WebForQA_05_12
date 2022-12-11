@@ -1,0 +1,6 @@
+.div-block-6:nth-child(2n){
+                background: darkgrey;
+            }
+.div-block-6:nth-child(2n) .text-block-5{
+                color: blue;
+            }
