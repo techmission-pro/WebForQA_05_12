@@ -1,5 +1,5 @@
 console.log('loaded');
-document.querySelector('.calc').addEventListener('click', function() {
+function cal() {
 	const sum1=+document.querySelector('input[name="num1"]').value;
 	const sum2=+document.querySelector('input[name="num2"]').value;
 	const op=document.querySelector('.oper').value;
@@ -15,4 +15,10 @@ document.querySelector('.calc').addEventListener('click', function() {
 		res=sum1/sum2;
 	}
 	document.querySelector('.calc-result').innerText=res;
-});
+}
+
+document.querySelector('.calc').addEventListener('click', cal);
+document.querySelector('.oper').addEventListener('change', cal);
+document.querySelector('[name="num1"]').addEventListener('change', cal);
+document.querySelector('[name="num2"]').addEventListener('change', cal);
+
