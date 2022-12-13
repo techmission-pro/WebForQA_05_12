@@ -1,4 +1,5 @@
-document.querySelector('.clc-clc') .addEventListener ('click', function () {
+
+function calc_embd() {
 	const n1 = 1*document.querySelector('[name="aygend"]' ).value;
 	const n2 = 1*document.querySelector('[name="addend"]' ).value;
 	const opr = document.querySelector('[name="opr"]' ).value;
@@ -13,4 +14,17 @@ document.querySelector('.clc-clc') .addEventListener ('click', function () {
 			 }
 
 	document.querySelector('.clc-res').value = res;
+}
+document.querySelector('.clc-clc') .addEventListener ('click', function() {
+	calc_embd ();
+});
+
+document.querySelector('[name="opr"]' ).addEventListener ('change', function() {
+	calc_embd ();
+});
+document.querySelector('[name="aygend"]' ).addEventListener ('input', function() {
+	calc_embd ();
+});
+document.querySelector('[name="addend"]' ).addEventListener ('input', function() {
+	calc_embd ();
 });
