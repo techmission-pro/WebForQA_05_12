@@ -6,3 +6,25 @@
 .div-block-6:nth-child(2n) .text-block-5 {
 	color: blue;
 }
+
+.calc-input {
+	width: 75px;
+	background-color: #DCDCDC;
+	text-align: center;
+}
+
+
+.div-block-27 {
+	background-color: darkgray;
+}
+
+.calc-calculate {
+	width: 36px;
+	background-color: #DCDCDC;
+	cursor: pointer;
+}
+
+.calc-calculate:hover {
+	background-color: silver;
+	transition: 0.7s;
+}
