@@ -4,3 +4,13 @@
 .div-block-6:nth-child(2n) .text-block-5{
                 color: blue;
             }
+.calc-input {
+    width: 70px;
+    background-color: azure;
+    border-color: purple;
+    border-end-start-radius: 5px 5px;
+    border-end-end-radius: 5px 5px;
+    border-start-start-radius: 5px 5px;
+    border-start-end-radius: 5px 5px;
+    text-align: center;
+}
