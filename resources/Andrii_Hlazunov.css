@@ -14,3 +14,10 @@
     border-start-end-radius: 5px 5px;
     text-align: center;
 }
+.calc-op {
+    background-color: #d263dc;
+    border-end-start-radius: 5px 5px;
+    border-end-end-radius: 5px 5px;
+    border-start-start-radius: 5px 5px;
+    border-start-end-radius: 5px 5px;
+}
