@@ -403,9 +403,14 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
-				<input type="text" name="num1" class="calc-input"/>
-				+
-				<input type="text" name="num2" class="calc-input"/>
+				<input type="number" name="num1" class="calc-input"/>
+				<select name="operation" class="calc-operation">
+				<option value="1">+</option>
+				<option value="2">-</option>
+				<option value="3">/</option>
+				<option value="4">*</option>
+				</select>
+				<input type="number" name="num2" class="calc-input"/>
 				<button type="button" class="calc-calculate">=</button>
 				<!--<span class="calc-result"></span>-->
 				<input type="text" readonly class="calc-input calc-result"/>

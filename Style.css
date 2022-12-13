@@ -28,3 +28,7 @@
 	background-color: silver;
 	transition: 0.7s;
 }
+
+.calc-operation {
+	background-color: #DCDCDC;
+}

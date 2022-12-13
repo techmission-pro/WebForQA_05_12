@@ -1,8 +1,22 @@
 document.querySelector('.calc-calculate').addEventListener('click', function() {
 	const num1 = +document.querySelector('[name="num1"]').value;
 	const num2 = +document.querySelector('[name="num2"]').value;
+	const operation = document.querySelector('[name="operation"]').value;
 	
-	const sum = num1 + num2;
+	let result;
 	
-	document.querySelector('.calc-result').value = sum;
+	if (operation === '1') {
+		result = num1 + num2;
+	} else if (operation === '2') {
+		result = num1 - num2;
+	} else if (operation === '3') {
+		result = num1 / num2;
+	}  else if (operation === '4') {
+		result = num1 * num2;
+	}
+		
+	
+	document.querySelector('.calc-result').value = result;
 })
+
+
