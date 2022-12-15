@@ -1399,7 +1399,7 @@
 	flex-direction: row-reverse;
 }
 
-.div-block-12 .text.block-9 {
+.div-block-12 .text-block-9 {
 	padding-left: 15px;
 }
 
@@ -1427,4 +1427,15 @@
 
 .div-block-6:nth-child(2n) .text-block-5 {
 	color: rgb(22, 19, 196);
+}
+
+.calc-input {
+	width: 80px;
+	text-align: center;
+}
+
+/* Calc */
+.calc-input {
+	color: #a583f5;
+	background-color: #000000;
 }

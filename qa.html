@@ -42,7 +42,7 @@
 		rel="shortcut icon" type="image/x-icon">
 	<link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624aaff5dc2c375a354aaf2c_metric-webclip.png"
 		rel="apple-touch-icon">
-	
+
 </head>
 
 <body class="main">
@@ -407,7 +407,18 @@
 			</div>
 			<div class="div-block-26">
 				<div class="div-block-27" id="scroll-block">
-					<div class="w-embed">
+					<div class="calc">
+						<input type="text" name="num1" class="calc-input" />
+						<select name="op" class="calc-op">
+							<option value="plus">+</option>
+							<option value="minus">-</option>
+							<option value="multiply">*</option>
+							<option value="divide">/</option>
+						</select>
+						<input type="text" name="num2" class="calc-input" />
+						<button type="button" class="calc-button">=</button>
+						<!-- <span class="calc-result"></span> -->
+						<input type="text" readonly class="calc-input calc-result">
 					</div>
 				</div>
 				<div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -428,6 +439,7 @@
 	<!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 	<!-- test coment -->
+	<script src="./resources/calc.js"></script>
 </body>
 
 </html>
