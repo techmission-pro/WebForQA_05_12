@@ -1249,4 +1249,18 @@
 .calc-input {
 width: 60px;
 text-align: center;
+border-radius: 8px;
+box-shadow: 1px 1px 20px 0 #dce9ff;
+border-color: #b090fd;
+}
+
+.calc-op {
+  border-color: #dce9ff;
+  color: #a57dff;
+}
+
+.calc-calculate {
+  border-color: #dce9ff;
+  background-color: rgb(255, 255, 255);
+  color: #a57dff;
 }
