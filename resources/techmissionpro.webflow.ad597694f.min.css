@@ -2043,7 +2043,8 @@ textarea.w-input, textarea.w-select {
 }
 
 body {
-    margin: 0;
+	
+    margin: 93px 0 0;
     min-height: 100%;
     background-color: #fff;
     font-family: Roboto, sans-serif;
@@ -2342,7 +2343,7 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -3374,7 +3375,7 @@ p {
 }
 
 .div-block-20.qa1 {
-    -webkit-box-pack: justify;
+	-webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between
