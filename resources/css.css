@@ -1238,3 +1238,44 @@
   src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+ 
+
+body {
+  padding-top: 93px;
+}
+
+.navigation {
+  position: fixed;
+}
+
+.div-block-12 {
+  flex-direction: row-reverse;
+}
+
+.div-block-12 .text-block-9 {
+padding-left: 15px;
+}
+
+.emoji {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.div-block-6:nth-child(2n)  {
+  background-color: darkgrey;
+}
+
+.div-block-6:nth-child(2n) .text-block-5 {
+  color:blue;
+}
+
+.calc-input  {
+background-color:rgb(180, 230, 184);
+width: 50px;
+text-align: center;
+}
+
+.calc-button {
+  background-color: rgb(255, 255, 255);
+}
