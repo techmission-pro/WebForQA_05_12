@@ -33,7 +33,7 @@
     <link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624b4f5650add8e98cf9c208_favicon-32x32.png"
           rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624aaff5dc2c375a354aaf2c_metric-webclip.png"
-          rel="apple-touch-icon"> 
+          rel="apple-touch-icon">
     <style> 
         .div-block-12 {
 		    flex-direction: row-reverse;
@@ -56,7 +56,11 @@
 		.div-block-6:nth-child(3n) .text-block-5{
 		     color: green;
 		}
-    </style>		  
+    </style>
+    <style>
+        .calculate-input (
+            width: 70px;)
+    </style> 	
 </head>
 <body style="padding-top: 93px;">
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
@@ -119,7 +123,7 @@
                         </div>
                         <div class="html-embed-3 w-embed w-script">
                         Roman
-						</div>  
+						</div>
                     </div>
                 </div>
                 <div class="div-block-22"><h1 class="main-heading">Тестування в сучасних реаліях – це найлегший старт в
@@ -410,15 +414,22 @@
             <div class="div-block-27" id="scroll-block">
                <div class="calculate">
 			        <input type="text" name="num1" class="calculate-input" />
-					+
+					<select name="option" class="option">
+					     <option value="plus">+</option>
+						 <option value="minus">-</option>
+						 <option value="multiply">*</option>
+						 <option value="divide">/</option>
+					</select>
 					<input type="text" name="num2" class="calculate-input" />
-					<button type="button">=</button>
-					<span class="calculate-result"></span>
+					<button type="button" class="calculate">=</button>
+					<!--<span class="calculate-result"></span>-->
+					<input type="text" readonly class="calculate-input calculate-result" />
 			   </div>
+			</div>	
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
         </div>
     </div>
-</div>     
+</div>
 <div class="sticky-fotter wf-section">
     <div class="w-container">
         <div class="div-block-112"><a class="button2 scroll-to sticky-button smoothscroll"
@@ -435,6 +446,13 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--> 
 
 <!-- text coment -->
+
+<script src="./resources/calc.js"></script>
+<style>
+   .calculate-input (
+        width: 70px;
+   )
+</style> 	
 
 </body>
 </html>
