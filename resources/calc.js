@@ -1,1 +1,1 @@
-console.log('Calc loaded');
+document.querySelector('.calc-calculate').
