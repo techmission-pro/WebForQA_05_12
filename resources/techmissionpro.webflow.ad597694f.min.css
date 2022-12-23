@@ -22652,3 +22652,15 @@ p {
 .div-block-6:nth-child(2n) .text-block-5 {
 	color: blue;
 }
+
+.calc-input {
+	width: 100px;
+	border-color: #E0FFFF;
+}
+
+.calc-calculate {
+	background-color:  #E0FFFF;
+	border: 1px solid #E0DFFF;
+	width: 50px;
+	border-radius: 10%;
+}
