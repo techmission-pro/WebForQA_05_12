@@ -403,10 +403,15 @@
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
 					<input type="text" name="num1" class="calc-input" />
-					+
+					<select name="op" class="calc-op calc-button">
+						<option value="plus">+</option>
+						<option value="minus">-</option>
+						<option value="multiply">*</option>
+						<option value="divide">/</option>
+					</select>
 					<input type="text" name="num2" class="calc-input" />
-					<button type="button" class="calc-calculate">=</button>
-					<input type="text" readonly class="calc-input calc-result"></span>
+					<button type="button" class="calc-button">=</button>
+					<input type="text" readonly class="calc-input calc-result" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
