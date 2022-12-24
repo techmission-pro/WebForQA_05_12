@@ -1,4 +1,4 @@
-document.querySelector('.calc-calculate').addEventListener('click', function (){
+function calculate() {
 const num1 = +document.querySelector('[name="num1"]').value;
 const num2 = +document.querySelector('[name="num2"]').value;
 
@@ -20,5 +20,19 @@ if (option === 'plus') {
 }
 
 document.querySelector('.calc-result').value = result;
+}
 
+document.querySelector('.calc-calculate').addEventListener('click', function(){
+	calculate();
+
+});
+
+document.querySelector('[name="option"]').addEventListener('change', function(){
+	calculate();
+});
+document.querySelector('[name="num1"]').addEventListener('input', function(){
+	calculate();
+});
+document.querySelector('[name="num2"]').addEventListener('input', function(){
+	calculate();
 });
