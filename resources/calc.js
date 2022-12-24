@@ -18,5 +18,5 @@ document.querySelector('.calc-calculate').addEventListener('click', function (){
 		alert('Wrong operation is selected');
 	}
 	
-	document.querySelector('.calculate-result').value = result;
+	document.querySelector('.calc-result').value = result;
 });
