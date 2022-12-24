@@ -7,11 +7,11 @@ document.querySelector('.calc-calculate').addEventListener('click', function () 
 	
 	if (op === 'plus') {
 		result = num1 + num2;
-	} else if  (op === 'minus') {
+	} else if (op === 'minus') {
 		result = num1 - num2;
-	} else if  (op === 'multiply') {
+	} else if (op === 'multiply') {
 		result = num1 * num2;
-	} else if  (op === 'divide') {
+	} else if (op === 'divide') {
 		result = num1 / num2;
 	} else {
 		console.error('Wrong op!');
