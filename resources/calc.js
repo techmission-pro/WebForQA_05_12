@@ -14,7 +14,7 @@ document.querySelector('.calc-calculate').addEventListener('click', function (){
 	} else if  (op === 'divide') {
 		result = num1 / num2;
 	} else {
-		console.error('Wrong op!');
+		console.error('Wrong operation!');
 		alert('Wrong operation is selected');
 	}
 	
