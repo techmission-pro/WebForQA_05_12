@@ -417,7 +417,8 @@
                         +
                         <input type="text" name="num2" class="calculator-input" /> 
                         <button type="button" class="calculator-calculate">=</button>
-                        <span class="calculator-result"></span>
+                        <!--span class="calculator-result"></span>-->
+                        <input type="text" readonly class="calculator-input calculator-result" />
                     </div>
                 </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -442,6 +443,13 @@
 <!--test coment -->
 
 <script src="./resources/calculator.js"></script>
+<style>.calculator-input {
+width: 50px;
+text-align: center;
+}
+
+
+</style>
 
 </body>
 </html>
