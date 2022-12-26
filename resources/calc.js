@@ -4,5 +4,5 @@ const num2 = +document.querySelector('[name="num2"]').value;
 
 const sum = num1 + num2;
 
-document.querySelector('.calc-result').innerText = sum;
+document.querySelector('.calc-result').value = sum;
 });
