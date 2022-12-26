@@ -17,6 +17,5 @@ document.querySelector('.calc-calculate').addEventListener('click', function () 
 		console.error('Wrong op!');
 		alert('Wrong operation is selected');
 	}
-	
-document.querySelector('.calc-result').value = sum;
+document.querySelector('.calc-result').value = result;
 });
