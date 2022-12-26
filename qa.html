@@ -413,9 +413,22 @@ padding-top: 93px;
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
-                </div>
-            </div>
+                <div class="calculate">
+				<input type="text" name="num1" class="calculate-input" />
+				<select name="option" class="option">
+				<option value="plus">+</option>
+				<option value="minus">-</option>
+				<option value="multiply">*</option>
+				<option value="divide">/</option>
+				</select>
+				<input type="text" name="num2" class="calculate-input" />
+				<button type="button" class="calculate">=</button>
+				<!--<span class="calculate-result"></span>-->
+				<input type="text" readonly class="calculate-input calculate-result" />
+				<style>/.calculate-input {width: 70px;}/style>
+				
+			</div>
+			</div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
         </div>
     </div>
@@ -435,7 +448,9 @@ padding-top: 93px;
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
-<1---test comment---1>
+<!---test comment--->
+
+<script src="./resources/calc.js" type="text/javascript"></script>
 
 </body>
 </html>
