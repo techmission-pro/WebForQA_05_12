@@ -1,5 +1,6 @@
  console.log ('calculator loaded');
-document.querySelector('.calculator-calculate').addEventListener('click', function() {
+ function calculate () 
+{
     const num1 = +document.querySelector('[name = "num1"]').value;
     const num2 = +document.querySelector('[name = "num2"]').value;
     const option = document.querySelector('[name="operation"]').value
@@ -22,5 +23,18 @@ document.querySelector('.calculator-calculate').addEventListener('click', functi
 
     
     document.querySelector ('.calculator-result').value = result;
+
+}
+document.querySelector ('.calculator-calculate').addEventListener('click', function() {
+    calculate ();
 });
-    
+document.querySelector ('[name="operation"]').addEventListener('change', function() {
+    calculate ();
+});
+document.querySelector('[name="num1"]').addEventListener('input', function() {
+    calculate ();
+})
+document.querySelector('[name="num2"]').addEventListener('input', function() {
+        calculate ();
+});
+  
