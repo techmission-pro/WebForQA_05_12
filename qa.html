@@ -414,11 +414,16 @@
             <div class="div-block-27" id="scroll-block">
                     <div class="calculator">
                         <input type="text" name="num1" class="calculator-input" />
-                        +
+                        <select name="operation" class="calculator option">
+                            <option value="plus">+</option>
+                            <option value="minus">-</option>
+                            <option value="multiply">*</option>
+                            <option value="divide">/</option>
+                        </select>
                         <input type="text" name="num2" class="calculator-input" /> 
                         <button type="button" class="calculator-calculate">=</button>
                         <!--span class="calculator-result"></span>-->
-                        <input type="text" readonly class="calculator-input calculator-result" />
+                        <input type="number" readonly class="calculator-input calculator-result" />
                     </div>
                 </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
